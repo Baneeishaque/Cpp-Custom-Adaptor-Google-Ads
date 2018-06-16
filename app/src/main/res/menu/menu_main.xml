@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ndk.myapplication2.MainActivity" >
+    <item
+        android:id="@+id/google_ads"
+        android:orderInCategory="100"
+        android:title="Google Ads" />
+    <item
+        android:id="@+id/custom_adaptor"
+        android:orderInCategory="103"
+        android:title="Custom Adaptor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/custom_adaptor_recycler"
+        android:orderInCategory="104"
+        android:title="Custom Adaptor Recycler" />
+</menu>
